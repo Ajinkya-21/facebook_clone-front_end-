@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    display: flex;
+    height: 56px;
+    background-color: #2455f4;
+    justify-content: center;
+    align-items: center;
+
+}
+.flip{
+    width: 76px;
+    height: 20px;
+    font-style: italic;
+}
+.plus{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -1000px;
+    display: inline;
+    height: 13px;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 600;
+}
+#pluslogo{
+    font-style: italic;
+    height: 11px;
+}
+#single{
+    font-style: italic;
+    font-weight: 600;
+    color: yellow;
+}
+.plus:hover{
+    text-decoration: underline;
+}
+#text{
+    margin-left: 15px;
+    color: rgb(99, 99, 99);
+    height: 36px;
+    width: 600px;
+    font-size: 17px;
+}
+#search{
+    background-color: white;
+    padding: 9px;
+    margin-left: -2px;
+    font-size: 20px;
+}
+#login{
+    color: #2455f4;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 5px 40px;
+    border-radius: 3%;
+    border: none;
+    margin-left: 40px;
+    background-color: white;
+}
+#seller{
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 40px;
+}
+#menu ul{
+    margin-left: -20px;
+    margin-top: 40px;
+    list-style: none;
+    background-color: rgba(250, 250, 250, 0.966);
+}
+#menu ul li a{
+    padding: 20px;
+    display: block;
+    color: black;
+    border-bottom: 1px solid #0000ff;
+}
+#menu{
+    display: none;
+    position: absolute;
+}
+#more{
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+#more:hover #menu{
+    display: block;
+}
+#menu ul li:hover{
+    background-color: rgb(244, 244, 244);
+}
+
